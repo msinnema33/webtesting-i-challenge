@@ -11,7 +11,6 @@ function succeed(item) {
   } else if(item.enhancement >= 0) {
     return {...item, enhancement: item.enhancement +1}
    }
-  
 }
 
 function fail(item) {
